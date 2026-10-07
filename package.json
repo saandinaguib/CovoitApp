@@ -4,7 +4,9 @@
   "main": "index.js",
   "dependencies": {
     "@expo/ngrok": "^4.1.0",
-    "expo": "~57.0.23",
+    "axios": "^0.21.0",
+    "date-fns": "^4.4.0",
+    "expo": "~57.0.27",
     "expo-status-bar": "~57.0.1",
     "react": "19.2.3",
     "react-native": "0.86.3"
@@ -15,5 +17,18 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
-  "private": true
+  "private": true,
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saandinaguib/CovoitApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/saandinaguib/CovoitApp/issues"
+  },
+  "homepage": "https://github.com/saandinaguib/CovoitApp#readme"
 }
